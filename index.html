@@ -3,29 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <style>
-        h2>{
-            color: rgb(255, 224, 227);
-        }
-        </style>
-        <link rel="stylesheet" href="./CSS/index.css"/>  
+    <title>Shreshant Wagle - Professional Profile</title>
+    <link rel="stylesheet" href="./CSS/index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class ="logo">KM</div>
-        <div class="menu"   >
-            <a>Home</a>
-            <a href="./HTML/About.html">About</a>
-            <a href="./HTML/Contact.html">Contact</a>
-            <a href="./HTML/Address.html">Address</a>
-            <a href="./HTML/Education.html">Education</a>
+    <nav id="navbar">
+        <div class="logo">SM</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#focus">Focus</a>
+            <a href="#progress">Development</a>
+            <a href="#education">Education</a>
+            <a href="#address">Location</a>
+            <a href="#contact">Contact</a>
         </div>
-
-    
-  
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
 
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Shreshant Wagle</h1>
+            <p>Aspiring Web Developer | Technology Enthusiast</p>
+            <p>Building innovative solutions through consistent learning and dedication</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
 
-</body>
-</html> 
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="card">
+                <ul>
+                    <li>Currently pursuing advanced studies in <strong>HTML, CSS, JavaScript, PHP, and React</strong></li>
+                    <li>Aspiring to become a proficient full-stack web developer</li>
+                    <li>Dedicated to creating innovative websites and enhancing technical expertise</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Portfolio Overview</h2>
+            <div class="card">
+                <ul>
+                    <li>Frontend and backend development practice projects</li>
+                    <li>Interactive web applications and mini-projects</li>
+                    <li>Technical experiments and coding demonstrations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="focus" class="section">
+        <div class="container">
+            <h2>Current Focus</h2>
+            <div class="card">
+                <ul>
+                    <li>Developing responsive and accessible web interfaces</li>
+                    <li>Mastering advanced JavaScript concepts and frameworks</li>
+                    <li>Building scalable React applications</li>
+                    <li>Implementing robust backend solutions with PHP</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="progress" class="section">
+        <div class="container">
+            <h2>Professional Development</h2>
+            <div class="progress-container">
+                <div class="progress-item">
+                    <span>HTML & CSS Fundamentals</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                    <span class="status">Completed</span>
+                </div>
+                <div class="progress-item">
+                    <span>JavaScript Proficiency</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                    <span class="status">Completed</span>
+                </div>
+                <div class="progress-item">
+                    <span>React Framework</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 60%;"></div>
+                    </div>
+                    <span class="status">In Progress</span>
+                </div>
+                <div class="progress-item">
+                    <span>PHP Backend Development</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 50%;"></div>
+                    </div>
+                    <span class="status">In Progress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="card">
+                <p>Currently pursuing BSc.IT at ISMT College, Butwal, Nepal</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="address" class="section">
+        <div class="container">
+            <h2>Location</h2>
+            <div class="card">
+                <p><i class="fas fa-map-marker-alt"></i> Bhairahawa, Nepal</p>
+                <p>Zip Code: 32900</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <div class="card">
+                <p><i class="fas fa-envelope"></i> shreeshantwagle@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +977 9841108549</p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/bwit25dset-ms" target="_blank">GitHub Profile</a></p>
+                <p><i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/Shreshant.Wagle05" target="_blank">Facebook Profile</a></p>
+                <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/shreshant_wagle05?igsh=ZHlqejFjZWx2eXBv" target="_blank">Instagram Profile</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Shreshant Wagle. All rights reserved.</p>
+        <p>"Excellence through continuous learning and innovation."</p>
+    </footer>
+
+    <a href="#home" class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a> 
